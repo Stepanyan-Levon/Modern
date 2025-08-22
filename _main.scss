@@ -1,0 +1,296 @@
+$primary-color:#F95911;
+%row-shared{
+display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px 0;
+}
+
+.sec-1{
+  background-color: #E5E5E5;
+  padding: 50px 0;
+}
+
+.clients{
+  padding: 50px 0;
+  background: $primary-color;
+  background: linear-gradient(180deg, $primary-color 52%, #E5E5E5 53%);
+}
+.my-clients{
+  position: relative;
+}
+.img1{
+  width: 72%;
+  border-radius: 30px;
+}
+.clients-card{
+  background-color: white ;
+  width: 45%;
+  border-radius: 30px;
+  position: absolute;
+  right: 0;
+  top: 20%;
+  padding: 30px;
+  h3{
+    font-size: 51px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+  }
+  button{
+    border: none;
+    color: black;
+    background-color: $primary-color;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  span{
+    display: block;
+    margin: 20px 0;
+  }
+  a{
+    text-decoration: underline;
+  }
+}
+.service-boxes{
+  @extend %row-shared;
+  gap: 25px 0;
+  margin: 50px 0;
+}
+.service-box{
+  width: 24%;
+  text-align: center;
+  margin: auto;
+  .circle-box{
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    background: #F8DD28;
+    border-radius: 50%;
+
+    img{
+      width: 68%;
+      object-fit: contain;
+      transform: translate(-46px, 48px);
+    }
+  }
+  h4{
+    margin: 20px 0;
+    text-transform: uppercase;
+    color:#190C3A ;
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    font-size:15px ;
+    line-height: 1.5;
+  }
+}
+.yoga{
+  background: linear-gradient(180deg, rgb(249, 89, 17) 43%, #E5E5E5 41%);
+}
+.circle2{
+  width: 740px;
+  height:740px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate(0, 170px);
+  img{
+    width: 100%;
+
+
+  }
+}
+.my-circle2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mission-card2{
+  background-color: white;
+  border-radius: 50px;
+  padding: 65px 25px;
+  width: 48%;
+  position: relative;
+  transform: translate(-25px, -150px);
+  align-self: flex-end;
+  h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  p{
+    line-height: 1.9;
+    color: #2C2933;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 1px;
+  }
+
+  a{
+    text-decoration: underline;
+  }
+  button{
+    background-color: #F95911;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 60px;
+  }
+}
+.yoga-card{
+  width: 51%;
+  background: #F95911;
+  color: white;
+  border-radius: 30px;
+  padding: 50px 20px;
+  transform: translate(10px, -50px);
+
+  p{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+  }
+  button{
+    background-color: white;
+    color: $primary-color;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 60px;
+  }
+}
+.color-white{
+  color: white;
+}
+.card{
+  background-color: white;
+  width: 23%;
+  height: 200px;
+  border-radius: 35px;
+  padding: 0 36px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.nums{
+  color: #F95911;
+  font-size: 72px;
+}
+.comment{
+  font-size: 20px;
+  word-spacing: 5px;
+}
+
+.parallax-effect{
+  width: 100%;
+  height: 35vh;
+  background-image: url("https://assets.nicepagecdn.com/d2cc3eaa/2180580/images/group-people-sitting-top-dune3.jpg");
+  background-attachment: fixed;
+  background-position: center;
+}
+.sec-2{
+  background-color:#F95911 ;
+  padding: 20px 0;
+}
+.card-large{
+  width: 48%;
+  background-color: white;
+  padding: 25px;
+  border-radius: 25px;
+  p{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.5;
+  }
+  span{
+    color: #F95911;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    display: block;
+  }
+}
+.sec-4{
+  background: #F95911;
+  background: linear-gradient(180deg, rgba(249, 89, 17, 1) 43%, #E5E5E5 41%);
+}
+.circle{
+  width: 700px;
+  height:700px;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate(0, 100px);
+  img{
+    width: 100%;
+
+
+  }
+}
+.my-circle{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.my-circle:before{
+  content: "";
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  background-color: white;
+  border-radius: 50%;
+  left: 0;
+  top: 50px;
+}
+.mission-card{
+  background-color: white;
+  border-radius: 42px;
+  padding: 50px 15px;
+  width: 52%;
+  position: relative;
+  transform: translate(0, -100px);
+  align-self: flex-start;
+  h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    padding: 10px;
+  }
+  p{
+    line-height: 1.9;
+    color: #2C2933;
+    padding: 10px;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  a{
+    text-decoration: underline;
+  }
+  button{
+    background-color: #F95911;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    padding: 20px 60px;
+  }
+}
