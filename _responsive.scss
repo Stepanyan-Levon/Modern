@@ -79,7 +79,11 @@
   }
 
 }
-
+@media only screen and (max-width: 750px) {
+  .contact-card{
+    padding: 30px;
+  }
+}
 @media only screen and (max-width: 650px) {
   .card-large {
     width: 90%;
@@ -111,6 +115,12 @@
   .img1{
     width: 100%
   }
+  .contact-card{
+    width: 85%;
+  }
+  .contact-card2{
+    width: 85%;
+  }
 }
 
 @media only screen and (max-width: 550px) {
@@ -137,8 +147,17 @@
     width: 350px;
     height: 350px;
   }
+  .contact-card2{
+    h3{
+      font-size: 35px;
+    }
+  }
 }
-
+@media only screen and (max-width: 400px) {
+  .contact-card{
+    padding: 20px;
+  }
+}
 @media (max-width: 350px) {
   .circle {
     width: 250px;
@@ -152,5 +171,8 @@
   .mission-card {
     width: 100%;
     transform: translate(0, 18px);
+  }
+  .contact-card{
+    padding: 10px;
   }
 }

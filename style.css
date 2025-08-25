@@ -342,6 +342,76 @@ body {
   padding: 20px 60px;
 }
 
+.sec-6 {
+  background: linear-gradient(180deg, rgb(249, 89, 17) 43%, #E5E5E5 41%);
+  padding: 50px 0;
+}
+
+.contact-card {
+  background-color: white;
+  border-radius: 25px;
+  width: 47%;
+  padding: 30px 70px;
+}
+
+.contact-info {
+  padding: 30px 0;
+}
+.contact-info .row {
+  justify-content: flex-start;
+  gap: 0 20px;
+}
+.contact-info span {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contact-info i {
+  font-size: 24px;
+  color: #F95911;
+}
+.contact-info p {
+  color: #666666;
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.contact-card2 {
+  width: 45%;
+  background-color: white;
+  padding: 40px 25px;
+  border-radius: 25px;
+}
+.contact-card2 h3 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 300;
+}
+.contact-card2 input {
+  width: 100%;
+  padding: 15px 0;
+  margin: 15px 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.contact-card2 textarea {
+  width: 100%;
+  margin: 50px 0;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.contact-card2 button {
+  background-color: #F95911;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  margin: 20px 0;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  padding: 15px 60px;
+  width: 100%;
+}
+
 @media (max-width: 1200px) {
   .container-lg {
     padding: 0 10px;
@@ -416,6 +486,11 @@ body {
     margin-top: 40px;
   }
 }
+@media only screen and (max-width: 750px) {
+  .contact-card {
+    padding: 30px;
+  }
+}
 @media only screen and (max-width: 650px) {
   .card-large {
     width: 90%;
@@ -444,6 +519,12 @@ body {
   .img1 {
     width: 100%;
   }
+  .contact-card {
+    width: 85%;
+  }
+  .contact-card2 {
+    width: 85%;
+  }
 }
 @media only screen and (max-width: 550px) {
   .my-circle {
@@ -468,6 +549,14 @@ body {
     width: 350px;
     height: 350px;
   }
+  .contact-card2 h3 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .contact-card {
+    padding: 20px;
+  }
 }
 @media (max-width: 350px) {
   .circle {
@@ -481,6 +570,9 @@ body {
   .mission-card {
     width: 100%;
     transform: translate(0, 18px);
+  }
+  .contact-card {
+    padding: 10px;
   }
 }
 
